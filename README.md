@@ -34,7 +34,11 @@ docker exec -it <name_of_container> /bin/zsh
 ```
 docker-compose run app rspec
 ```
-
+## To stop and kill the running containers(make sure to stop first)
+```
+docker stop $(docker ps -a -q)
+docker kill $(docker ps -a -q)
+```
 
 * My goal is to get this entire project into a self contained docker environment, where anyone can run the Dockerfile and have access to the app on their local machine.
 
