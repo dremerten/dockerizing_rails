@@ -40,6 +40,11 @@ docker stop $(docker ps -a -q)
 docker kill $(docker ps -a -q)
 ```
 
+## In order to copy a file from a container to the host, you can use the command
+```
+docker cp <containerId>:/file/path/within/container /host/path/target
+```
+
 * My goal is to get this entire project into a self contained docker environment, where anyone can run the Dockerfile and have access to the app on their local machine.
 
 Things you may want to cover:
