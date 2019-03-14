@@ -1,16 +1,16 @@
 # Docker/Rails_app Chatterbox
-## Get the application up and running
+### Dockerized by Andre Merten
+
 # cd into the scripts directory and run ./set-up
 
-# this will pull the images and configure the containers
-
-# to check the running containers run
-```
-docker container ps
-```
-
+### to get the containers up and running
 ```
 scripts/setup-env.sh
+```
+
+### To check the current running containers
+```
+docker container ps
 ```
 
 ## Running the tests

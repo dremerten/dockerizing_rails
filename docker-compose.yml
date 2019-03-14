@@ -1,8 +1,8 @@
-version: '3.4'
+ersion: '3.4'
 
 services:
   app:
-    image: jfahrer/todomvc:latest
+    image: amerten/chatterbox:latest
     build:
       context: .
     ports:
