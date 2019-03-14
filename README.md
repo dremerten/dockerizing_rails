@@ -28,42 +28,24 @@ docker container ps
 ```
 docker exec -it <name_of_container> /bin/zsh
 ```
-### Ensure that your server is running by navigating to ```localhost:3000```
+## Ensure that your server is running by navigating to 
+```localhost:3000```
 
-## Running the tests
+### Running the tests
 ```
 docker-compose run app rspec
 ```
-## To stop and kill the running containers(make sure to stop first)
+### To stop and kill the running containers(make sure to stop first)
 ```
 docker stop $(docker ps -a -q)
 docker kill $(docker ps -a -q)
 ```
 
-## In order to copy a file from a container to the host, you can use the command
+### In order to copy a file from a container to the host, you can use the command
 ```
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
 
 * My goal is to get this entire project into a self contained docker environment, where anyone can run the Dockerfile and have access to the app on their local machine.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# chatterbox
