@@ -1,7 +1,19 @@
 # Docker/Rails_app Chatterbox
-## Dockerized by Andre Merten
+### Dockerized by Andre Merten
 
+## Make sure you have docker installed and running: 
+```
+For Mac: go here ---> https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
+For Linux Ubuntu 18.04: got here and follow the steps ---> 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+
+For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
+```
+## Make sure you have Postgres installed and running:
+```
+https://www.postgresql.org/download/
+```
 
 ### to get the containers up and running change into scripts directory and run
 ```
