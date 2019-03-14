@@ -11,9 +11,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## Make sure you have Postgres installed and running:
-```
-https://www.postgresql.org/download/
-```
+
+https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
 
 ### to get the containers up and running change into scripts directory and run
 ```
