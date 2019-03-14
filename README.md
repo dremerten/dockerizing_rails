@@ -12,7 +12,7 @@ For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-d
 
 ## Make sure you have Postgres installed and running:
 
-https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+https://postgresapp.com/
 
 
 ### to get the containers up and running change into scripts directory and run
