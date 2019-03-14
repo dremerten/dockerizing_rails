@@ -1,6 +1,6 @@
 FROM ruby:2.5.1
 
-RUN apt-get update && apt-get install -y postgresql-client nodejs build-essential vim zsh ranger htop tmux && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && chsh -s /bin/zsh
+RUN apt-get update && apt-get install -y postgresql-client docker-compose nodejs build-essential vim zsh ranger htop tmux && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && chsh -s /bin/zsh
 
 WORKDIR /app
 COPY Gemfile* ./
