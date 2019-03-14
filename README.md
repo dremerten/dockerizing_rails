@@ -15,6 +15,8 @@ docker container ps
 ### to enter the container run:
 ```
 docker exec -it <name_of_container> /bin/zsh
+```
+### Ensure that your server is running by navigating to "localhost:3000"
 
 ## Running the tests
 ```
