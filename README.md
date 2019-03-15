@@ -1,5 +1,5 @@
 # Docker/Rails_app Chatterbox
-### Dockerized by Andre Merten
+
 
 1) ## Make sure you have docker installed and running: 
 
@@ -10,7 +10,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
-2) ## Make sure you have Postgres installed and running:
+2) ### Make sure you have Postgres installed and running:
 
 https://postgresapp.com/
 
