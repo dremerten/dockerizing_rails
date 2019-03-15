@@ -15,20 +15,22 @@ For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-d
 https://postgresapp.com/
 
 
-3) ### to get the containers up and running change into scripts directory and run
+3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
-scripts/setup-env.sh
+$ cd scripts/
+
+$ ./setup-env.sh
 ```
 
-4) ### To check the current running containers
+4) ### To check the status of current running containers
 ```
 docker container ps
 ```
-5) ### to enter the container run:
+5) ### To enter the container run:
 ```
-docker exec -it <name_of_container> /bin/zsh
+docker exec -it <container_Id> /bin/zsh
 ```
-6) ## Ensure that your server by opening a web browser and navigating to:
+6) ## Ensure you are servering on localhost port 3000, open a web browser and navigate to:
 ```localhost:3000```
 
 7) ### Running the tests
@@ -46,6 +48,6 @@ docker stop $(docker ps -a -q)
 docker kill $(docker ps -a -q)
 ```
 
-# My goal is to get this entire project into a self contained docker environment, where anyone can run the Dockerfile and have access to the app on their local machine.
+
 
 
