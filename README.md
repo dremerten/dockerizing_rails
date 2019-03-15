@@ -30,7 +30,7 @@ docker container ps
 ```
 docker exec -it <container_Id> /bin/zsh
 ```
-6) ## Ensure you are servering on localhost port 3000, open a web browser and navigate to:
+6) ### Ensure you are servering on localhost port 3000, open a web browser and navigate to:
 ```localhost:3000```
 
 7) ### Running the tests
