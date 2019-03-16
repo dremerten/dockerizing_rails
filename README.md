@@ -31,26 +31,32 @@ https://chocolatey.org/packages/git
 choco install git.install --params "/GitOnlyOnPath"
 ```
 
-### After installing git be sure to close and reopen the Command Prompt/Terminal to allow the changes to take effect.
+### After installing git be sure to close the Command Prompt/Terminal to allow the changes to take effect.
 
-3) ### Clone this repo, from within the command Prompt(Windows) or Terminal(OSX, Linux) run:
+3) ### Clone this repo, from with the "Git Bash" Command Prompt
+   ### To access click on the windows icon and select "Git" from there locate the Git Bash Command Prompt, right-click
+   ### and run as Administrator.
 ```
 git clone https://github.com/dremerten/dockerizing_rails.git
 ```
 
+
+### Locating the Git Bash Command Window.
 ![alt text](https://i.stack.imgur.com/soecn.png)
 
 
-
-*******************************************************************************************************************************
 
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
 $ cd dockerizing_rails/scripts/
 
+# For MacOSX/Linux
 $ ./setup-env.sh
-```
 
+# Windows(Git Bash Command Prompt)
+$ sh setup-env.sh
+```
+******************************************************************************************************************************
 4) ### To check the status of current running containers
 ```
 docker container ps
