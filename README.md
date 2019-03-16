@@ -12,7 +12,9 @@ For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-d
 
 2) ### Make sure you have Postgres installed and running:
 
-https://postgresapp.com/
+For Mac :https://postgresapp.com/
+
+For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
