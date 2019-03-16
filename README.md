@@ -16,6 +16,7 @@ For Mac :https://postgresapp.com/
 
 For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
+********************************************************************************************************************************
 2.5)
 ### Windows Only
 ### You may need to install Chocolately ---> https://chocolatey.org/docs
@@ -37,6 +38,11 @@ choco install git.install --params "/GitOnlyOnPath"
 git clone https://github.com/dremerten/dockerizing_rails.git
 ```
 
+![alt text]C:\Users\Andre\Pictures\Saved Pictures\soecn![alt text]
+
+
+
+*******************************************************************************************************************************
 
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
