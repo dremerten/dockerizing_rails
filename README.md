@@ -16,22 +16,26 @@ For Mac :https://postgresapp.com/
 
 For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-2.5) ### Windows Only
+2.5)
+### Windows Only
 ### You may need to install Chocolately ---> https://chocolatey.org/docs
 
-### after Chocolately is installed use the command prompt to install git.
+### After Chocolately is installed use the command prompt to install git.
 https://chocolatey.org/packages/git
 
 ```# MUST RUN CMD AS ADMINISTRATOR
-# /GitOnlyOnPath - Puts gitinstall\cmd on path. This is also done by default if no package parameters are set.
+# /GitOnlyOnPath - Puts git install\cmd on path. This is also done by default if no package parameters are set.
 
-# to install
+# To install Git
 choco install git.install --params "/GitOnlyOnPath"
 ```
 
+### After installing git be sure to close and reopen the Command Prompt/Terminal to allow the changes to take effect.
+
 3) ### Clone this repo, from within the command Prompt(Windows) or Terminal(OSX, Linux) run:
 ```
-git clone
+git clone https://github.com/dremerten/dockerizing_rails.git
+```
 
 
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
