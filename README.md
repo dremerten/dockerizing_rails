@@ -40,7 +40,7 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
-$ cd scripts/
+$ cd dockerizing_rails/scripts/
 
 $ ./setup-env.sh
 ```
