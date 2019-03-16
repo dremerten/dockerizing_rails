@@ -38,7 +38,7 @@ choco install git.install --params "/GitOnlyOnPath"
 git clone https://github.com/dremerten/dockerizing_rails.git
 ```
 
-![alt text]C:\Users\Andre\Pictures\Saved Pictures\soecn![alt text]
+![alt text](https://i.stack.imgur.com/soecn.png)
 
 
 
