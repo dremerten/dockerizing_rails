@@ -45,7 +45,7 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 ![alt text](https://i.stack.imgur.com/soecn.png)
 
 
-
+****************************************************************************************************************
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
 $ cd dockerizing_rails/scripts/
@@ -56,7 +56,6 @@ $ ./setup-env.sh
 # Windows(Git Bash Command Prompt)
 $ sh setup-env.sh
 ```
-******************************************************************************************************************************
 4) ### To check the status of current running containers
 ```
 docker container ps
