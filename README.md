@@ -45,6 +45,7 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 ![alt text](https://i.stack.imgur.com/soecn.png)
 
 
+# Once you have Docker, Postgres and the Repo Cloned
 ****************************************************************************************************************
 3) ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
