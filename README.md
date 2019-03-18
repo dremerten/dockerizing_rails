@@ -12,11 +12,11 @@ For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-d
 
 2) ### Make sure you have Postgres installed and running:
 
-For Mac :https://postgresapp.com/
+For Mac: Go here and select from the downloads tab ----> https://postgresapp.com/
 
 For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-********************************************************************************************************************************
+################################################################################
 2.5)
 ### Windows Only
 ### You may need to install Chocolately ---> https://chocolatey.org/docs
