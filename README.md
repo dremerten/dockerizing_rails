@@ -84,6 +84,11 @@ docker stop $(docker ps -a -q)
 docker kill $(docker ps -a -q)
 ```
 
+### view all images running
+```
+$ docker images
+```
+
 
 # For additional Docker commands please refer to "docker_notes.txt"
 
