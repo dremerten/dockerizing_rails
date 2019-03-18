@@ -89,6 +89,9 @@ docker kill $(docker ps -a -q)
 $ docker images
 ```
 
-
+### To additionally remove any stopped containers and all unused images (not just dangling images), add the -a flag to the command:
+```
+docker system prune -a
+```
 # For additional Docker commands please refer to "docker_notes.txt"
 
