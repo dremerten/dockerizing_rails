@@ -16,9 +16,9 @@ For Mac: Go here and select from the downloads tab ----> https://postgresapp.com
 
 For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-################################################################################
-2.5)
-### Windows Only
+############################################################################################################################
+
+#Windows Only
 ### You may need to install Chocolately ---> https://chocolatey.org/docs
 
 ### After Chocolately is installed use the command prompt to install git.
