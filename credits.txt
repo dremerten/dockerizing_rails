@@ -1,10 +1,7 @@
-# This project was made with the blood sweat and tears of the 2019 Apprentices
-
-- Mitchell Maciorski
-- Shontinique Uqdah
+# This project was made by:
 - Andre Merten
-- Gohar Matinyan
-- Andrew Talle
+
+
 
 
 
