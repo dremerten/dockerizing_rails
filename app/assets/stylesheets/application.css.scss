@@ -1,0 +1,28 @@
+@import "semantic-ui";
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+}
+
+footer {
+	background-color: black;
+}
+
+i {
+	color: black;
+}
+
+h2 {
+	padding: 10px;
+}
+
+.message.closable {
+  margin-left: 20%;
+  margin-right: 20%;
+ }

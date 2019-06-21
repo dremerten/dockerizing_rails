@@ -1,0 +1,35 @@
+<div class="ui fluid card">
+  <div class="content">
+    <div class="header">
+      Tag Name: <%= @tag.name %>
+    </div>
+  </div>
+
+</div>
+
+
+<%= link_to "Edit Tag", edit_tag_path(@tag), class: 'ui button' %>
+<%= link_to "All Tags", tags_path, class: "ui button" %>
+
+<br>
+
+
+  <h3 class="ui header">Notes with <%= @tag.name %></h3>
+  <div class="ui three stackable cards">
+    <% @documents.each do |document| %>
+    <div class="card">
+      <div class="content">
+        <%= link_to document.title, document_path(document), class: "center aligned header" %>
+        <div class="center aligned description">
+          <%= truncate(document.body, length: 250) %>
+        </div>
+      </div>
+      <div class="extra content center aligned">
+        <small>Created:<%= time_ago_in_words(document.created_at) %> ago, Last updated: <%= time_ago_in_words(document.updated_at) %> ago</small>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+
+

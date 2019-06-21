@@ -1,4 +1,7 @@
-require File.expand_path('../../config/environment', __FILE__)
+# frozen_string_literal: true
+
+ENV['RAILS_ENV'] ||= 'test'
+require_relative '../config/environment'
 require 'rails/test_help'
 
 class ActiveSupport::TestCase

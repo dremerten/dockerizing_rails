@@ -1,0 +1,11 @@
+<h2 class="ui center aligned header">My Tags</h2>
+
+<div class="ui three stackable cards">
+  <% @tags.each do |tag| %>
+  <div class="card">
+    <div class="content">
+        <%=  link_to tag.name, tag_path(tag), class: "center aligned header" %>
+    </div>
+  </div>
+  <% end %>
+</div>
